@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: boot-docker-demo
+Implementation-Version: 1.0.0
+Built-By: ankiparmar
+Implementation-Vendor-Id: com.kroger.docker.demo
+Spring-Boot-Version: 2.1.4.RELEASE
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: com.kroger.docker.demo.DockerDemoApplication
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_261
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/docker-demo
+

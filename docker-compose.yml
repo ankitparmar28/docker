@@ -1,0 +1,13 @@
+--- 
+services: 
+  items: 
+    build: ./items
+    ports: 
+      - 9000:8080
+  website: 
+    build: ./website
+    depends_on: 
+      - items
+    ports: 
+      - 3000:80
+version: "3"
